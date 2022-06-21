@@ -1,4 +1,6 @@
 import React from "react";
+import panorama_1 from "../pictures/panorama_1.JPG";
+import panorama_2 from "../pictures/panorama_2.JPG";
 
 function History() {
   return (
@@ -7,7 +9,7 @@ function History() {
         <h1 className="mb-5 text-center">История</h1>
         <p>
           <img
-            src="./pictures/panorama_2.jpg"
+            src={panorama_2}
             alt="Stefanovo"
             width="440"
             height="247"
@@ -38,7 +40,7 @@ function History() {
 
         <div>
           <img
-            src="./pictures/panorama_1.jpg"
+            src={panorama_1}
             alt="Stefanovo"
             width="400"
             height="225"
