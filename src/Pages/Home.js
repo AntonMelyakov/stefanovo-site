@@ -9,7 +9,7 @@ function Home() {
         <h1 className="mb-5 text-center">Село Стефаново</h1>
         <p>
           <img
-            src="../../public/pictures/panorama_1.jpg"
+            src="./pictures/panorama_1.jpg"
             alt="Stefanovo"
             width="440"
             height="247"
@@ -37,7 +37,7 @@ function Home() {
 
         <div>
           <img
-            src="./pictures/panorama_1.jpg"
+            src="./pictures/panorama_2.jpg"
             alt="Stefanovo"
             width="400"
             height="225"
