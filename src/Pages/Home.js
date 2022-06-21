@@ -1,4 +1,5 @@
 import React from "react";
+import panorama_1 from "../pictures/panorama_1.JPG";
 
 function Home() {
   const title = "Home";
@@ -9,7 +10,7 @@ function Home() {
         <h1 className="mb-5 text-center">Село Стефаново</h1>
         <p>
           <img
-            src="./pictures/panorama_1.jpg"
+            src={panorama_1}
             alt="Stefanovo"
             width="440"
             height="247"
