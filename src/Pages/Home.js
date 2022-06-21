@@ -1,5 +1,6 @@
 import React from "react";
 import panorama_1 from "../pictures/panorama_1.JPG";
+import panorama_2 from "../pictures/panorama_2.JPG";
 
 function Home() {
   const title = "Home";
@@ -38,7 +39,7 @@ function Home() {
 
         <div>
           <img
-            src="./pictures/panorama_2.jpg"
+            src={panorama_2}
             alt="Stefanovo"
             width="400"
             height="225"
