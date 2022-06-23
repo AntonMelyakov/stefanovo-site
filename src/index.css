@@ -47,6 +47,7 @@ h1{
   background-color: #749f55;
   position: sticky; 
   top: 0;
+  z-index: 1000;
   -webkit-box-shadow: 0 8px 6px -6px grey;
 	   -moz-box-shadow: 0 8px 6px -6px grey;
 	        box-shadow: 0 8px 6px -6px grey;

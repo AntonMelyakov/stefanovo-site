@@ -1,5 +1,5 @@
 import React from "react";
-import panorama_1 from "../pictures/panorama_1.JPG";
+import panorama_1 from "../pictures/pic_13.jpg";
 import panorama_2 from "../pictures/panorama_2.JPG";
 
 function History() {

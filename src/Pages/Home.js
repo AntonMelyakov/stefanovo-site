@@ -1,6 +1,6 @@
 import React from "react";
-import panorama_1 from "../pictures/panorama_1.JPG";
-import panorama_2 from "../pictures/panorama_2.JPG";
+import pic_14 from "../pictures/pic_14.jpg";
+import pic_6 from "../pictures/pic_6.JPG";
 
 function Home() {
   const title = "Home";
@@ -10,13 +10,6 @@ function Home() {
       <div className="d-flex flex-column justify-content-center">
         <h1 className="mb-5 text-center">Село Стефаново</h1>
         <p>
-          <img
-            src={panorama_1}
-            alt="Stefanovo"
-            width="440"
-            height="247"
-            className="float-end"
-          />
           Китното село Стефаново се намира на около 10 километра от град
           Радомир, в подножието на планина Острица. В селото има язовир, който
           предоставя добри условия за любителите на риболова. Стефаново
@@ -28,6 +21,9 @@ function Home() {
           „Долна Диканя“). Стефаново е обградено от селата: Червена могила (от
           запад), Друган (от изток) и Долни Раковец (от запад-югозапад).
         </p>
+        <div className="d-flex justify-content-center my-3">
+          <img src={pic_14} alt="Stefanovo" width="100%" />
+        </div>
         <p>
           Землището на Стефаново е сравнително голямо за тази част на България –
           31,394 км². Северната му част е заета от хълмисто-планинския релеф на
@@ -39,10 +35,9 @@ function Home() {
 
         <div>
           <img
-            src={panorama_2}
+            src={pic_6}
             alt="Stefanovo"
             width="400"
-            height="225"
             className="float-start p-2"
           />
           <p>
