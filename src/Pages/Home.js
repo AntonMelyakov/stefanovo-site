@@ -37,7 +37,7 @@ function Home() {
           <img
             src={pic_6}
             alt="Stefanovo"
-            width="400"
+            width="300"
             className="float-start p-2"
           />
           <p>
