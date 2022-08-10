@@ -44,7 +44,7 @@ function History() {
           <img
             src={pic_12}
             alt="Stefanovo"
-            width="400"
+            width="300"
             className="float-md-start pe-2"
           />
           <p>
