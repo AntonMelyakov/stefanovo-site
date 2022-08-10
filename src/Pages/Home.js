@@ -6,7 +6,7 @@ function Home() {
   const title = "Home";
 
   return (
-    <div className="m-4 p-4 rounded home">
+    <div className="m-md-4 p-md-4 m-2 p-2 rounded home">
       <div className="d-flex flex-column justify-content-center">
         <h1 className="mb-5 text-center">Село Стефаново</h1>
         <p>

@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import History from "./Pages/History";
 import Home from "./Pages/Home";
@@ -12,8 +13,7 @@ function App() {
   return (
     <Router>
       <div className="d-flex flex-column app-container">
-        <Header />
-
+        <Header setDimBackground="setDimBackground" />
         {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
         <Routes>
