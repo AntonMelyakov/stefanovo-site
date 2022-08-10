@@ -22,7 +22,7 @@ function Header() {
         className={`d-flex justify-content-evenly px-3 py-2 header-menu ${sticky}`}
       >
         <Link className="header-link" to="/">
-          Начало test
+          Начало
         </Link>
 
         <Link className="header-link" to="/history">
