@@ -19,7 +19,7 @@ function History() {
             src={pic_13}
             alt="Stefanovo"
             width="300"
-            className="float-end ms-2"
+            className="float-md-end ms-2"
           />
           <p>
             Село Стефаново има богата история. Наличните данни сочат за
@@ -45,7 +45,7 @@ function History() {
             src={pic_12}
             alt="Stefanovo"
             width="400"
-            className="float-start pe-2"
+            className="float-md-start pe-2"
           />
           <p>
             Едната антична вила рустика е разкрита при прокопаване на канал край
@@ -80,7 +80,7 @@ function History() {
               src={pic_7}
               alt="Stefanovo"
               width="350"
-              className="float-end pe-2"
+              className="float-md-end pe-2"
             />
             Първият писмен запис на селата намираме в османски данъчни документи
             от XV в, в които са записани под същото име – Проваленича и Ракофче.
