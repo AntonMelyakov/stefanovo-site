@@ -20,7 +20,7 @@ function MobileMenu() {
   window.addEventListener("scroll", handleScroll);
 
   return (
-    <div className={` ${sticky} d-flex flex-column header-menu`}>
+    <div className={`sticky-header d-flex flex-column header-menu`}>
       <div className={`text-center  px-3 py-2`}>
         <a className="header-link my-2" onClick={checOpenMobile}>
           <div
